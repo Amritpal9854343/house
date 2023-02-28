@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 
-with open('./backend/Models/banglore_home_prices_model.pickle', 'rb') as p:
+with open('./banglore_home_prices_model.pickle', 'rb') as p:
     pipe = pickle.load(p)    
 
 app = Flask(__name__)
